@@ -1,0 +1,224 @@
+/* - containing classes are utils.css classes */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #561C24;
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #6D2932;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: chartreuse;
+    font-size: 1.01rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+main hr {
+    border: 0;
+    background: #E8D8C4;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 88px 0px;
+}
+
+.firstsection>div {
+    width: 40%;
+}
+
+.leftsection {
+    font-size: 3rem;
+}
+
+.leftsection .button {
+    padding: 37px 0;
+}
+
+.leftsection .btn {
+    padding: 12px;
+    color: white;
+    background-color: #561C24;
+    border: 2px solid white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 24px;
+}
+
+.rightsection img {
+    width: 75%;
+}
+
+#element {
+    color: #ffe500;
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+
+.secondsection .box {
+    background: white;
+    width: 79vw;
+    height: 2px;
+    margin: 69px 2px;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 8vw;
+}
+
+footer {
+    background-color: #672d35;
+    /* height: 233px; */
+}
+
+.footer {
+    display: flex;
+    margin: 50px 125px;
+    padding: 20px 23px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footerrights {
+    text-align: center;
+    color: gray;
+    padding: 10px 0;
+
+}
+
+@media screen and (max-width:1375px) {
+    body {
+        min-width: fit-content;
+    }
+
+    /* footer {
+        display: none;
+    } */
+
+    .box {
+        flex-direction: column;
+    }
+
+    .secondsection .vertical {
+        height: unset;
+    }
+
+    .vertical-title,
+    .vertical-desc {
+        left: 45px;
+    }
+
+    .secondsection .box {
+        width: 50vw;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .firstsection {
+        flex-direction: column-reverse;
+    }
+
+    .leftsection {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rightsection {
+        width: 433px !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .secondsection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 240vh;
+    }
+
+    .image-top {
+        top: 213px !important;
+        left: -11px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .leftsection {
+        font-size: 2.3rem;
+    }
+}
+
+/* @media screen and (max-width:700px) and (min-width:244px){
+    .secondsection {
+        height: 170vh;
+    } */
+
+@media screen and (max-width: 550px) {
+    nav ul li {
+        margin: 0 13px;
+        font-size: .799rem;
+    }
+    
+    .secondsection h1 {
+        font-size: 1.5rem;
+    }
+}
+

@@ -1,0 +1,32 @@
+.purple-name {
+    color: #ffe500;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+
+}
+
+.vertical-title {
+    position:relative;
+    top:75px;
+    width:-9px;
+    font-size: 14px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+
+/* #E8D8C4 */
